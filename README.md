@@ -23,8 +23,9 @@ Download the [Elgato Distribution tool](https://developer.elgato.com/documentati
 
 Then, execute this command:
 
-```./DistributionTool -b -i com.boinx.mimolive.sdPlugin -o ~/Desktop/
-```
+'''
+./DistributionTool -b -i com.boinx.mimolive.sdPlugin -o ~/Desktop/
+'''
 
 ## Authors and acknowledgment
 
