@@ -1,0 +1,126 @@
+{
+  "Actions": [
+    {
+      "Icon": "res/actionLive",
+      "Name": "Live",
+      "States": [
+        {
+          "Image": "res/actionLiveOn",
+          "TitleAlignment": "bottom",
+          "FontFamily": "Arial",
+          "FontStyle": "Regular",
+          "FontSize": "14",
+          "TitleColor": "white"
+        },
+        {
+          "Image": "res/actionLiveOff",
+          "TitleAlignment": "bottom",
+          "FontFamily": "Arial",
+          "FontStyle": "Regular",
+          "FontSize": "14",
+          "TitleColor": "white"
+        }
+      ],
+      "SupportedInMultiActions": false,
+      "Tooltip": "Call a mimoLive API Endpoint when the button is pressed.",
+      "UUID": "com.boinx.mimolive.live"
+    },
+    {
+      "Icon": "res/actionCam",
+      "Name": "Camera",
+      "States": [
+        {
+          "Image": "res/actionCamOn",
+          "TitleAlignment": "bottom",
+          "FontFamily": "Arial",
+          "FontStyle": "Regular",
+          "FontSize": "14",
+          "TitleColor": "white"
+        },
+        {
+          "Image": "res/actionCamOff",
+          "TitleAlignment": "bottom",
+          "FontFamily": "Arial",
+          "FontStyle": "Regular",
+          "FontSize": "14",
+          "TitleColor": "white"
+        }
+      ],
+      "SupportedInMultiActions": false,
+      "Tooltip": "Call a mimoLive API Endpoint when the button is pressed.",
+      "UUID": "com.boinx.mimolive.cam"
+    },
+    {
+      "Icon": "res/actionMic",
+      "Name": "Microphone",
+      "States": [
+        {
+          "Image": "res/actionMicOn",
+          "TitleAlignment": "bottom",
+          "FontFamily": "Arial",
+          "FontStyle": "Regular",
+          "FontSize": "14",
+          "TitleColor": "white"
+        },
+        {
+          "Image": "res/actionMicOff",
+          "TitleAlignment": "bottom",
+          "FontFamily": "Arial",
+          "FontStyle": "Regular",
+          "FontSize": "14",
+          "TitleColor": "white"
+        }
+      ],
+      "SupportedInMultiActions": false,
+      "Tooltip": "Call a mimoLive API Endpoint when the button is pressed.",
+      "UUID": "com.boinx.mimolive.mic"
+    },
+    {
+      "Icon": "res/actionLayer",
+      "Name": "Layer",
+      "States": [
+        {
+          "Image": "res/actionLayerOn",
+          "TitleAlignment": "bottom",
+          "FontFamily": "Arial",
+          "FontStyle": "Regular",
+          "FontSize": "14",
+          "TitleColor": "white"
+        },
+        {
+          "Image": "res/actionLayerOff",
+          "TitleAlignment": "bottom",
+          "FontFamily": "Arial",
+          "FontStyle": "Regular",
+          "FontSize": "14",
+          "TitleColor": "white"
+        }
+      ],
+      "SupportedInMultiActions": false,
+      "Tooltip": "Call a mimoLive API Endpoint when the button is pressed.",
+      "UUID": "com.boinx.mimolive.layer"
+    }
+  ],
+  "Author": "Boinx GmbH",
+  "CodePath": "plugin/index.html",
+  "Description": "Control mimoLive layers and layer sets via Stream Deck.",
+  "Name": "mimoLive",
+  "Icon": "res/pluginIcon",
+  "URL": "https://boinx.com/mimolive/",
+  "PropertyInspectorPath": "pi/index.html",
+  "Version": "1.0.0",
+  "Category": "mimoLive",
+  "CategoryIcon": "res/categoryIcon",
+  "OS": [
+    {
+      "MinimumVersion" : "10.11",
+      "Platform": "mac"
+    },
+    {
+      "Platform": "windows",
+      "MinimumVersion" : "10"
+    }
+  ],
+  "SDKVersion": 2,
+  "Software":  { "MinimumVersion" : "4.1" }
+}

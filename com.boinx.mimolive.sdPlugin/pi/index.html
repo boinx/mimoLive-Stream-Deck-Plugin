@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>com.boinx.mimolive.pi</title>
+        <link rel="stylesheet" href="sdpi.css">
+        <script src="main_pi.js"></script>
+    </head>
+    <body>
+        <div class="sdpi-wrapper hidden">
+            <div class="sdpi-heading">mimoLive API Endpoint settings</div>
+            <div class="sdpi-item">
+                <div class="sdpi-item-label">Server</div>
+                <input class="sdpi-item-value" id="apisrv" value="" onchange="updateSettings()" placeholder="http://" style="min-width:100px;" required>
+            </div>
+            <div class="sdpi-item">
+                <div class="sdpi-item-label">API</div>
+				<select class="sdpi-item-value select" id="apiurlsel" onchange="selectEndpoint()" style="min-width:50px; max-width:75px; margin-right:0px;">
+				<option value=""></option>
+				</select>
+                <input class="sdpi-item-value" id="apiurl" value="" onchange="updateSettings()" placeholder="" style="min-width:100px;" required>              
+            </div>
+            <div class="sdpi-item">
+                <div class="sdpi-item-label">Action</div>
+                <select class="sdpi-item-value select" id="apicmd" onchange="updateSettings()">
+                    <option id="" value=""></option>
+                    <optgroup label="Layers">
+						<option id="setLive" value="setLive">setLive</option>
+						<option id="setOff" value="setOff">setOff</option>
+						<option id="toggleLive" value="toggleLive">toggleLive</option>
+						<option id="cycleThroughVariants" value="cycleThroughVariants">cycleThroughVariants</option>
+                   	</optgroup>
+                    <optgroup label="Layer Sets">
+                   		<option id="recall" value="recall">recall</option>
+                   	</optgroup>
+                </select>
+            </div>
+        </div>
+    </body>
+</html>
