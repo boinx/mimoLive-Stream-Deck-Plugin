@@ -3,9 +3,8 @@ A plugin for the popular Elgato Stream Deck to control mimoLive.
 
 ## Installation and usage
 
-To install the mimoLive Stream Deck plugin, download the latest release from the side bar.
+To install the mimoLive Stream Deck plugin, [download the latest release](https://github.com/boinx/mimoLive-Stream-Deck-Plugin/releases).
 
-Double click the .zip file to expand the plugin. 
 Then, double click the plugin to load it into the Elgato Stream Deck app.
 
 ## Discussion and help
