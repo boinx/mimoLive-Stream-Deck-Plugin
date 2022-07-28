@@ -21,7 +21,7 @@
           "TitleColor": "white"
         }
       ],
-      "SupportedInMultiActions": false,
+      "SupportedInMultiActions": true,
       "Tooltip": "Call a mimoLive API Endpoint when the button is pressed.",
       "UUID": "com.boinx.mimolive.live"
     },
@@ -46,7 +46,7 @@
           "TitleColor": "white"
         }
       ],
-      "SupportedInMultiActions": false,
+      "SupportedInMultiActions": true,
       "Tooltip": "Call a mimoLive API Endpoint when the button is pressed.",
       "UUID": "com.boinx.mimolive.cam"
     },
@@ -71,7 +71,7 @@
           "TitleColor": "white"
         }
       ],
-      "SupportedInMultiActions": false,
+      "SupportedInMultiActions": true,
       "Tooltip": "Call a mimoLive API Endpoint when the button is pressed.",
       "UUID": "com.boinx.mimolive.mic"
     },
@@ -96,7 +96,7 @@
           "TitleColor": "white"
         }
       ],
-      "SupportedInMultiActions": false,
+      "SupportedInMultiActions": true,
       "Tooltip": "Call a mimoLive API Endpoint when the button is pressed.",
       "UUID": "com.boinx.mimolive.layer"
     }
