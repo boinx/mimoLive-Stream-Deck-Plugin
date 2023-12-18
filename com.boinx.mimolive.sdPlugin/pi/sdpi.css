@@ -247,6 +247,7 @@ option {
   align-items: center;
   margin-top: 2px;
   max-width: 344px;
+  content-align:center;
 }
 
 .sdpi-item:first-child {
@@ -327,12 +328,16 @@ table > caption {
 }
 
 .sdpi-item-label {
+  
   text-align: right;
-  flex: none;
   width: 94px;
   padding-right: 4px;
   font-weight: 600;
   -webkit-user-select: none;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+
 }
 
 .win .sdpi-item-label,
@@ -340,9 +345,7 @@ table > caption {
   font-weight: normal;
 }
 
-.sdpi-item-label:after {
-  content: ": ";
-}
+
 
 .sdpi-item-label.empty:after {
   content: "";

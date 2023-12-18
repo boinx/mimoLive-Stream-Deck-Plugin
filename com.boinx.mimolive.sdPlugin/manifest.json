@@ -8,7 +8,7 @@
           "Image": "res/actionLiveOn",
           "TitleAlignment": "bottom",
           "FontFamily": "Arial",
-          "FontStyle": "Regular",
+          "FontStyle": "Light",
           "FontSize": "14",
           "TitleColor": "white"
         },
@@ -16,7 +16,7 @@
           "Image": "res/actionLiveOff",
           "TitleAlignment": "bottom",
           "FontFamily": "Arial",
-          "FontStyle": "Regular",
+          "FontStyle": "Light",
           "FontSize": "14",
           "TitleColor": "white"
         }
@@ -33,7 +33,7 @@
           "Image": "res/actionCamOn",
           "TitleAlignment": "bottom",
           "FontFamily": "Arial",
-          "FontStyle": "Regular",
+          "FontStyle": "Light",
           "FontSize": "14",
           "TitleColor": "white"
         },
@@ -41,7 +41,7 @@
           "Image": "res/actionCamOff",
           "TitleAlignment": "bottom",
           "FontFamily": "Arial",
-          "FontStyle": "Regular",
+          "FontStyle": "Light",
           "FontSize": "14",
           "TitleColor": "white"
         }
@@ -58,7 +58,7 @@
           "Image": "res/actionMicOn",
           "TitleAlignment": "bottom",
           "FontFamily": "Arial",
-          "FontStyle": "Regular",
+          "FontStyle": "Light",
           "FontSize": "14",
           "TitleColor": "white"
         },
@@ -66,7 +66,7 @@
           "Image": "res/actionMicOff",
           "TitleAlignment": "bottom",
           "FontFamily": "Arial",
-          "FontStyle": "Regular",
+          "FontStyle": "Light",
           "FontSize": "14",
           "TitleColor": "white"
         }
@@ -83,7 +83,7 @@
           "Image": "res/actionLayerOn",
           "TitleAlignment": "bottom",
           "FontFamily": "Arial",
-          "FontStyle": "Regular",
+          "FontStyle": "Light",
           "FontSize": "14",
           "TitleColor": "white"
         },
@@ -91,7 +91,7 @@
           "Image": "res/actionLayerOff",
           "TitleAlignment": "bottom",
           "FontFamily": "Arial",
-          "FontStyle": "Regular",
+          "FontStyle": "Light",
           "FontSize": "14",
           "TitleColor": "white"
         }
@@ -101,14 +101,14 @@
       "UUID": "com.boinx.mimolive.layer"
     }
   ],
-  "Author": "Boinx GmbH",
+  "Author": "Boinx Software International GmbH",
   "CodePath": "plugin/index.html",
   "Description": "Control mimoLive layers and layer sets via Stream Deck.",
-  "Name": "mimoLive",
+  "Name": "mimoLive v1.2.0",
   "Icon": "res/pluginIcon",
-  "URL": "https://boinx.com/mimolive/",
+  "URL": "https://mimolive.com/",
   "PropertyInspectorPath": "pi/index.html",
-  "Version": "1.1.0",
+  "Version": "1.2.0",
   "Category": "mimoLive",
   "CategoryIcon": "res/categoryIcon",
   "OS": [
